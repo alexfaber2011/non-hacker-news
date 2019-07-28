@@ -1,0 +1,7 @@
+<h1>Top Stories</h1>
+<ul>
+  <% @stories.each do |story| %>
+    <li><a href="<%= story[:url] %>"><%= story[:title] %></a></li>
+  <% end %>
+</ul>
+
