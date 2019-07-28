@@ -1,11 +1,15 @@
-hidden_post:
-  hacker_news_id: 1
-  title: "You can't see me!"
-  url: "http://foo.com"
-  hidden: true
+<% (1..5).each do |num| %>
+  hidden_post_<%= num %>:
+    hacker_news_id: <%= num %>
+    title: "You can't see me!"
+    url: "http://foo.com"
+    hidden: true
+<% end %>
 
-shown_post:
-  hacker_news_id: 2
-  title: "Hello world!"
-  url: "http://hello.com"
-  hidden: false
+<% (6..10).each do |num| %>
+  hidden_post_<%= num %>:
+    hacker_news_id: <%= num %>
+    title: "Hello world!"
+    url: "http://hello.com"
+    hidden: false
+<% end %>
