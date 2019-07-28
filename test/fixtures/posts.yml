@@ -1,0 +1,11 @@
+hidden_post:
+  hacker_news_id: 1
+  title: "You can't see me!"
+  url: "http://foo.com"
+  hidden: true
+
+shown_post:
+  hacker_news_id: 2
+  title: "Hello world!"
+  url: "http://hello.com"
+  hidden: false

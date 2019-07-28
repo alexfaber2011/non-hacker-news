@@ -1,0 +1,43 @@
+---
+http_interactions:
+- request:
+    method: get
+    uri: https://hacker-news.firebaseio.com/v0/item/20548701.json
+    body:
+      encoding: UTF-8
+      string: ''
+    headers:
+      Connection:
+      - close
+      Host:
+      - hacker-news.firebaseio.com
+      User-Agent:
+      - http.rb/4.1.1
+  response:
+    status:
+      code: 200
+      message: OK
+    headers:
+      Server:
+      - nginx
+      Date:
+      - Sun, 28 Jul 2019 18:44:46 GMT
+      Content-Type:
+      - application/json; charset=utf-8
+      Content-Length:
+      - '381'
+      Connection:
+      - close
+      Access-Control-Allow-Origin:
+      - "*"
+      Cache-Control:
+      - no-cache
+      Strict-Transport-Security:
+      - max-age=31556926; includeSubDomains; preload
+    body:
+      encoding: UTF-8
+      string: '{"by":"curtis","descendants":31,"id":20548701,"kids":[20548932,20548920,20549060,20549092,20549098,20549114,20548958],"score":72,"time":1564334783,"title":"Alaska
+        defunds scholarships for thousands of students ahead of fall semester","type":"story","url":"https://www.nbcnews.com/news/us-news/alaska-defunds-scholarships-thousands-university-students-ahead-fall-semester-n1035231"}'
+    http_version: 
+  recorded_at: Sun, 28 Jul 2019 18:44:46 GMT
+recorded_with: VCR 5.0.0
